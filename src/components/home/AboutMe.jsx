@@ -35,7 +35,7 @@ const AboutMe = () => {
             <Link to="/contact" className="btn">
               Hire Me!
             </Link>
-            <a href="#" className="btn">
+            <a href="https://drive.google.com/file/d/1F-GsmpZvpI-gPRALDb6xPQFKwN_9Ru4B/view?usp=sharing" className="btn" target='_blank'>
               Download CV
             </a>
           </div>
