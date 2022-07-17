@@ -1,0 +1,97 @@
+.title-skills{
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3em 0;
+    font-size: 2em;
+}
+
+.my-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.skills-info{
+    position: absolute;
+    color: aliceblue;
+    display: grid;
+    gap: 10px;
+    top: 25%;
+    font-size: 0.8rem;
+}
+
+.cuandro-skills{
+    left: 3rem;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: solid rgba(255, 253, 253, 0.481) 2px;
+  animation: rotate 3s infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+
+.cuadro-skills-2{
+    left: 3rem;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: solid rgba(157, 220, 157, 0.623) 1px;
+    animation: rotateInverse 3s infinite;
+}
+
+@keyframes rotateInverse {
+    0%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(-180deg);
+    }
+}
+
+
+@media (min-width: 650px) {
+    .all-skills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cuandro-skills{
+        left: -0.5em;
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border: solid rgba(255, 253, 253, 0.481) 2px;
+      animation: rotate 3s infinite;
+    }
+    .cuadro-skills-2{
+        left: -0.5em;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border: solid rgba(157, 220, 157, 0.623) 1px;
+        animation: rotateInverse 3s infinite;
+    }
+    .skills-info{
+        left: 40px;
+        position: absolute;
+        color: aliceblue;
+        display: grid;
+        gap: 10px;
+        top: 25%;
+        font-size: 1rem;
+    }
+}

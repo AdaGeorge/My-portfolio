@@ -1,0 +1,8 @@
+.contact-screen{
+    background-color: var(--primary-color);
+}
+.prueba{
+    color: wheat;
+    position: absolute;
+    top: 200px;
+}
